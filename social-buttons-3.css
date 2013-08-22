@@ -6,6 +6,15 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+/*
+
+Example:
+
+<button class="btn btn-facebook"><i class="icon-facebook"></i>Facebook</button>
+
+This will render the icon slightly larger than before and add a separator border between the icon and text
+
+*/
 
 
 .btn-social-fade:hover,
