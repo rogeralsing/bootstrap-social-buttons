@@ -6,9 +6,99 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+
+
+.btn-social-fade:hover,
+.btn-social-fade.active {
+    -ms-opacity:1;
+    opacity:1;
+}
+
+/* class for fading buttons */
+.btn-social-fade {
+    -ms-opacity:0.6;
+    opacity:0.6;
+}
+
+.btn-bitbucket,
+.btn-bitbucket,
+.btn-dribbble,
+.btn-dropbox,
+.btn-facebook,
+.btn-flickr,
+.btn-foursquare,
+.btn-github,
+.btn-google-plus,
+.btn-instagram,
+.btn-linkedin,
+.btn-pinterest,
+.btn-renren,
+.btn-skype,
+.btn-stackexchange,
+.btn-trello,
+.btn-tumblr,
+.btn-twitter,
+.btn-weibo,
+.btn-xing,
+.btn-youtube {
+    -ms-text-shadow: 1px 1px rgba(0,0,0,0.3);
+    -webkit-text-shadow: 1px 1px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-bitbucket i,
+.btn-bitbucket i,
+.btn-dribbble i,
+.btn-dropbox i,
+.btn-facebook i,
+.btn-flickr i,
+.btn-foursquare i,
+.btn-github i,
+.btn-google-plus i,
+.btn-instagram i,
+.btn-linkedin i,
+.btn-pinterest i,
+.btn-renren i,
+.btn-skype i,
+.btn-stackexchange i,
+.btn-trello i,
+.btn-tumblr i,
+.btn-twitter i,
+.btn-weibo i,
+.btn-xing i,
+.btn-youtube i
+{
+    height: 100%;
+    padding-right: 10px;
+    margin-right: 7px;
+
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: inherit;
+
+    width: 27px;
+    display: inline-block;
+    font-size: large;
+    vertical-align: middle;
+    margin-top: -8px;
+    margin-bottom: -6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: rgba(255,255,255,0.5);
+    -webkit-font-smoothing:antialiased;
+}
+
+.btn-social-disabled {
+  color: #000000;
+  background-color: #fafafa;
+  border-color: #cccccc;
+}
+
 .btn-facebook {
   color: #ffffff;
-  background-color: #133783;
+  background-color: #3B5998;
   border-color: #133783;
 }
 
@@ -17,7 +107,7 @@
 .btn-facebook:active,
 .btn-facebook.active {
   color: #ffffff;
-  background-color: #0e285f;
+  background-color: #2B4988;
   border-color: #0b214e;
 }
 
